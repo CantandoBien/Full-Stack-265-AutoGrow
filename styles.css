@@ -1,0 +1,597 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Proxima Nova', 'Verdana', 'Courier New', Courier, monospace;
+    background-color: #ffffff;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+.footer {
+    position: absolute;
+    top: 200%;
+    width: 100%;
+    z-index: -1;
+}
+
+.blackMenu {
+    border-bottom: 1px solid #000000;
+    font-size: 1.2vh;
+    background-color: #000000;
+    color: #e9e9e9;
+    text-align: right;
+    padding: .4%;
+    width: 100%;
+}
+
+.whiteMenu {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: #000000;
+    font-size: 2vh;
+    text-align: right;
+    font-weight: bold;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu span {
+    margin: 0 10px;
+    background-color: #F2BD2A;
+    padding: 5px 10px;
+    border-radius: 10px;
+    font-size: .8em;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.cero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bor01 {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.cero03 {
+    margin: 0 auto;
+    font-size: 4vh;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+
+.cero04 {
+    margin: 0 auto;
+    font-size: 2vh;
+    display: block;
+    text-align: center;
+}
+
+.cero05 {
+    margin: 0 auto;
+    font-size: 2vh;
+    display: block;
+    text-align: center;
+    width: 85%;
+    border: 2px solid #F2BD2A;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.cero06 {
+    margin: 0 auto;
+    font-size: 2vh;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    border: 0px;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.uno {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin: 0px auto;
+    width: 100%;
+}
+
+.uno>.menu>span {
+    font-size: 2vh;
+}
+
+.bee1 {
+    position: absolute;
+    left: 72%;
+    top: 65%;
+    width: 8%;
+    height: 8%;
+    background: url('./images/bee.svg') center center / contain no-repeat;
+    transform: rotate(8deg);
+}
+
+.bee2 {
+    position: absolute;
+    left: 18%;
+    top: 113%;
+    width: 8%;
+    height: 8%;
+    background: url('./images/bee.svg') center center / contain no-repeat;
+    transform: rotate(188deg);
+}
+
+.bee3 {
+    position: absolute;
+    left: 72%;
+    top: 58%;
+    width: 8%;
+    height: 8%;
+    background: url('./images/bee.svg') center center / contain no-repeat;
+    transform: rotate(-40deg);
+}
+
+.pan01 { position: absolute; top: 0%; left: 0%; }
+.pan02 { position: absolute; top: 0%; left: 10%; }
+.pan03 { position: absolute; top: 15%; left: 5%; }
+.pan04 { position: absolute; top: 15%; left: 15%; }
+.pan05 { position: absolute; top: 30%; left: 0; }
+.pan06 { position: absolute; top: 30%; left: 10%; }
+
+.img01 { position: absolute; top: 5%; left: 2.6%; }
+.img02 { position: absolute; top: 5%; left: 12.8%; }
+.img03 { position: absolute; top: 20%; left: 8.3%; }
+.img04 { position: absolute; top: 20%; left: 17.8%; }
+.img05 { position: absolute; top: 34%; left: 3%; }
+.img06 { position: absolute; top: 34%; left: 13%; }
+
+.text01 { position: absolute; top: 11%; left: 2.3%; font-size: 1.1em; font-weight: bold; }
+.text02 { position: absolute; top: 11%; left: 12.7%; font-size: 1.1em; font-weight: bold; }
+.text03 { position: absolute; top: 26%; left: 7.6%; font-size: 1.1em; font-weight: bold; }
+.text04 { position: absolute; top: 26%; left: 16.5%; font-size: 1.1em; font-weight: bold; text-align: center; }
+.text05 { position: absolute; top: 40%; left: 1.6%; font-size: 1.1em; font-weight: bold; text-align: center; }
+.text06 { position: absolute; top: 39.5%; left: 10%; font-size: 1.1em; font-weight:  bold; text-align: center; }
+
+.text01,
+.text02,
+.text03,
+.text04,
+.text05,
+.text06 {
+    color: #000000;
+    text-align: center;
+}
+
+.temp1A100 {
+    position: absolute;
+    top: 60%;
+    left: 42%;
+    margin: 0px auto;
+    width: 60%;
+}
+
+.temp1A200 {
+    position: absolute;
+    top: 15%;
+    margin: 27% 0% 0% 20%;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.temp1A300 {
+    position: absolute;
+    top: 60%;
+    margin: 27% 0% 0% 20%;
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.temp1A400 {
+    display: block;
+    text-align: left;
+    position: absolute;
+    top: 140%;
+    width: 60%;
+}
+
+.temp1A201,
+.temp1A202 {
+    flex: 1;
+    margin: 20px;
+}
+
+.temp1A301 {
+    flex: 1;
+    margin: 20px;
+    font-size: 1.6vh;
+}
+
+.temp1A302 {
+    flex: 1;
+    margin: 20px;
+    font-size: 1.6vh;
+}
+
+.empar {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 1.6vh;
+}
+
+.empar img {
+    margin-right: 10px;
+}
+
+.temp1A201 {
+    width: 10%;
+    padding: 3%;
+    border: 2px solid #F2BD2A;
+    border-radius: 10px;
+}
+
+.temp1A202 {
+    width: 10%;
+    padding: 3%;
+    border: 2px solid #F2BD2A;
+    border-radius: 10px;
+}
+
+.temp1A203 {
+    width: 10%;
+    padding: 3%;
+    border: 2px solid #F2BD2A;
+    border-radius: 10px;
+}
+
+.path1 {
+    position: absolute;
+    left: 69%;
+    top: 68%;
+    transform: rotate(-8deg);
+    width: 40%;
+    height: 40%;
+    background: url('./images/path.svg') center center / contain no-repeat;
+    z-index: -1;
+}
+
+.path2 {
+    position: absolute;
+    left: -11%;
+    top: 79%;
+    transform: rotate(-188deg);
+    width: 40%;
+    height: 40%;
+    background: url('./images/path.svg') center center / contain no-repeat;
+    z-index: -1;
+}
+
+.path3 {
+    position: absolute;
+    left: 69%;
+    top: 25%;
+    transform: rotate(-80deg);
+    width: 40%;
+    height: 40%;
+    background: url('./images/path.svg') center center / contain no-repeat;
+    z-index: -1;
+}
+
+.panit {
+    position: absolute;
+    top: 75%;
+    left: 65%;
+    width: 100%;
+    height: 100%;
+}
+
+.cero07 {
+    width: 50%;
+    padding: 0px 0px 0px 5%;
+}
+
+.line11 {
+    position: relative;
+    top: 150%;
+    left: 5%;
+    width: 3.5%;
+}
+
+.cero08 {
+    margin: 0 auto;
+    font-size: 2.5vh;
+    font-weight: bold;
+    display: block;
+    text-align: left;
+}
+
+.cero09 {
+    font-size: 1.8vh;
+}
+
+.cero10 {
+    font-size: 1.6vh;
+}
+
+.otro {
+    position: absolute;
+    top: 140%;
+    left: 50%;
+    width: 50%;
+    height: 50%;
+    background-color: #f2bd2a00;
+}
+
+.poly29 {
+    position: absolute;
+    top: 125%;
+    left: 0%;
+    width: 50%;
+    height: 50%;
+    background-color: #f2bd2a00;
+    z-index: -1;
+}
+
+.ban00 {
+    position: absolute;
+    top: 125%;
+    left: 0%;
+    width: 100%;
+    height: 50%;
+}
+
+.ban01 {
+    position: absolute;
+    top: 11%;
+    left: 18%;
+    width: 15%;
+}
+
+.ban02 {
+    position: absolute;
+    top: 33%;
+    left: 14%;
+    width: 10%;
+}
+
+.ban03 {
+    position: absolute;
+    top: 38%;
+    left: 22%;
+    width: 15%;
+}
+
+.ban04 {
+    position: absolute;
+    top: 63%;
+    left: 18%;
+    width: 15%;
+}
+
+.footer {
+    position: absolute;
+    top: 200%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    border-bottom: 1px solid #000000;
+    font-size: 1.2vh;
+    background-color: #000000;
+    color: #e9e9e9;
+    text-align: left;
+    padding: 40px;
+}
+
+.flech {
+    width: 20%;
+    position: absolute;
+    top: 215%;
+    left: 2.5%;
+}
+
+.arrowL {
+    width: 10%;
+    border: 2px solid #F2BD2A;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.arrowR {
+    width: 10%;
+    border: 2px solid #F2BD2A;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.templete {
+    width: 100%;
+    position: absolute;
+    top: 235%;
+    left: 0%;
+    margin: 0;
+    padding: 0;
+}
+
+.panelSide {
+    width: 30%;
+    position: absolute;
+    top: -15.5%;
+    left: 65%;
+}
+
+.temp1A10 {
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    width: 40%;
+    height: 100%;
+}
+
+.temp1A11 {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    width: 40%;
+    height: 100%;
+    font-size: 2.1vh;
+}
+
+.temp1A01 {
+    width: 50%;
+    height: 100%;
+    color: #F2BD2A;
+    font-size: 6vh;
+    font-weight: bold;
+    border-color: 2px solid #1E242A;
+}
+
+.temp1A02 {
+    color: #000000;
+    font-size: 6vh;
+    font-weight: bold;
+    font-style: italic;
+    border-color: 2px solid #1E242A;
+}
+
+.temp1A20 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40%;
+    height: 100%;
+}
+
+.temp1A21 {
+    color: #000000;
+    font-size: 1.6vh;
+    border-color: 2px solid #1E242A;
+}
+
+.temp1A03 {
+    width: 50%;
+}
+
+.btn1A01 {
+    margin: 0 10px;
+    background-color: #F2BD2A;
+    color: #000000;
+    padding: 25px;
+    border-radius: 10px;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.btn1A02 {
+    margin: 0 10px;
+    background-color: #000000;
+    color: #e9e9e9;
+    padding: 25px;
+    border-radius: 10px;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+
+.container {
+    position: relative;
+    top: 115%;
+    left: 400px;
+    margin: 10px;
+    width: 100%;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 200%;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 5px 10px;
+    text-align: center;
+}
+
+.temp1A500 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    position: absolute;
+    top: 155%;
+    left: -320px;
+}
+
+.temp1A600 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    position: absolute;
+    top: 190%;
+    left: -320px;
+}
+
+.temp1A700 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    position: absolute;
+    top: 225%;
+    left: -320px;
+}
+
+.temp1A800 {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    position: absolute;
+    top: 260%;
+    left: -320px;
+}
+
+.temp1A910 {
+    position: absolute;
+    top: 300%;
+    left: 60px;
+    font-size: 1.8em;
+    margin: 20px auto;
+    width: 40%;
+}
+
+a {
+    background-color: #F2BD2A;
+    border: 2px solid #F2BD2A;
+    border-radius: 8px;
+    font-size: 1.4vh;
+    margin: 10px;
+    padding: 5px 20px;
+    text-decoration: none;
+}
